@@ -1,0 +1,38 @@
+#background {
+    background-color: #efe8e8;
+}
+
+#background2{
+    background-color: #c9b4b4;
+    width: 500px;
+    height: 300px;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+#Corazón{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+#Corazón:hover{
+    transform: translateY(2px);    
+}
+
+#Corazón:active{
+    transform: translateY(4px);
+}
